@@ -185,3 +185,7 @@ window.addEventListener('resize', () => {
     }
 });
 
+function scrollToContact() {
+  // Scroll smoothly to the contact section
+  document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+}
